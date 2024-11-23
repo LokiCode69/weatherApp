@@ -1,0 +1,50 @@
+body{
+  background-image: url(https://i.postimg.cc/mg7nsPQc/1732339290484.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  font: Arial;
+  color: #82f5ff;
+}
+
+#cityname{
+  font-size: 1.3em;
+  border: 2px solid;
+  border-radius: 5px;
+}
+
+#get-weather{
+  font-size: 1.4em;
+  background-color: #00dd00;
+  border: 2px solid #222222;
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+#get-weather:hover{
+  background-color: #00aa00;
+}
+
+#get-weather:active{
+  background-color: #00ff00;
+}
+
+.weathercard{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin: 10px;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(5px);
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px #cccccc;
+}
+
+.emojiDisplay{
+  margin: 0px;
+  font-size: 3em;
+}
